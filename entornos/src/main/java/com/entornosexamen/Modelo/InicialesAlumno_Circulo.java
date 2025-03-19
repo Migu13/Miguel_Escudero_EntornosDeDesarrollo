@@ -48,5 +48,13 @@ public class InicialesAlumno_Circulo {
     }
 
 
+    private static double getAreaCirculo(InicialesAlumno_Circulo circulo1) {
+        double radio1 = circulo1.getRadio();
+        double area2 = radio1 * 3.14;
+        System.out.println(" Area circulo: " + area2);
+        return area2;
+    }
+
+
 
 }
