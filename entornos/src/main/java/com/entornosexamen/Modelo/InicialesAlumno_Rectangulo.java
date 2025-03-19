@@ -58,6 +58,13 @@ public class InicialesAlumno_Rectangulo {
         return " id= " + id + " ladoA= " + ladoA + " ladoB= " + ladoB +  "color=" + color  ;
     }
 
+    private static void imprimirResultados(InicialesAlumno_Circulo circulo1, InicialesAlumno_Rectangulo cuadrado1,
+            double diferencia) {
+        System.out.println(" Cuadrado: " + cuadrado1);
+        System.out.println(" Circulo: " + circulo1);
+        System.out.println(" Diferencia: " + diferencia);
+    }
+
     
     
 }
