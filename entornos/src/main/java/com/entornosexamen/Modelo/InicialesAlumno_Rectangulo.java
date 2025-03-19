@@ -58,11 +58,12 @@ public class InicialesAlumno_Rectangulo {
         return " id= " + id + " ladoA= " + ladoA + " ladoB= " + ladoB +  "color=" + color  ;
     }
 
-    private static void imprimirResultados(InicialesAlumno_Circulo circulo1, InicialesAlumno_Rectangulo cuadrado1,
-            double diferencia) {
-        System.out.println(" Cuadrado: " + cuadrado1);
-        System.out.println(" Circulo: " + circulo1);
-        System.out.println(" Diferencia: " + diferencia);
+    private static double getAreaCuadrado(InicialesAlumno_Rectangulo cuadrado1) {
+        double ladoA = cuadrado1.getLadoA();
+        double ladoB = cuadrado1.getLadoB();
+        double area1 = ladoA * ladoB;
+        System.out.println(" Area Cuadrado: " + area1);
+        return area1;
     }
 
     
